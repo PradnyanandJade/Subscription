@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Supscription</title>
+        <style>
+            
+            .container{
+                height: 100vh;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-evenly;
+                
+            }
+            .Plan{
+                position: relative;
+                text-align: center;
+                height: 70vh;
+                flex-basis: 40vh;
+                min-width: 10vh;
+                max-width: 40vhvh;
+                border-radius: 20px;
+                border: 2px solid black;
+            }
+            .C{
+                position: absolute;
+                left: 10%;
+                top: 22%;
+                background-color: #5356FF;
+                height: 50%;
+                width: 80%;
+            }
+            #CB{
+                background-color:#CD7F32;
+            }
+            #CG{
+                background-color: #FFD700;
+            }
+            #CD{
+                background-color: #b9f2ff;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="Plan" id="Bronze">
+               <h1>Bronze</h1>
+                <div class="C" id="CB"></div>
+            </div>
+            <div class="Plan" id="Gold">
+                <h1>Gold</h1>
+                <div class="C" id="CG"></div>
+            </div>
+            <div class="Plan" id="Diamond">
+                <h1>Diamond</h1>
+                <div class="C" id="CD"></div>
+            </div>
+        </div>
+    </body>
+</html>
